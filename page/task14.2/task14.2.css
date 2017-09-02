@@ -1,0 +1,181 @@
+
+
+/*中间部分*/
+main{
+	margin: 0 auto 200px ;
+	width: 65%;
+}
+.bn-head{
+	height: 12.5vw;
+}
+.bn-head img{
+	height: 12.5vw;
+	width: 100%;
+}
+.page{
+	margin: 35px 0 30px 0;
+	height: 20px;
+	font-weight:bold;
+    line-height: 20px;
+	font-size: 16px;
+}
+.page a{
+	color: #1FB176;
+}
+
+
+/*中间左边部分*/
+.centerpart{
+	overflow: hidden;
+}
+.centerleft{
+	float: left;
+	padding-bottom: 3vw;
+	margin-bottom: 3vw;
+	box-shadow: 2px 2px 2px #CCCCCC;
+	border: solid 1px #CCCCCC;
+	width: 25%;
+}
+.centerleft-top{
+	border-bottom: solid 1px #CCCCCC;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	width: 100%;
+	line-height: 60px;
+	height: 60px;
+}
+.centerlist{
+	font-size: 14px;
+	text-align: left;
+	color: #1FB176;
+	margin: 35px auto 0;
+	width: 100px;
+}
+.icon_circle{
+	margin-right: 5px;
+	display: inline-block;
+	height: 1rem;
+	width: 1rem;
+	border-radius: 1rem;
+	border: 1px solid #Ff6400;
+}
+.centerlist:hover span{
+	border: 5px solid #ff6400;
+}
+.centerlist:hover a{
+	color:  #ff6400;
+}
+.centerlist a{
+	color: #1DA36D;
+}
+@media only screen and (min-width:320px )and (max-width:768px) {
+	main{
+		width: 65%;
+	}
+	.centerleft{
+		margin: 0 auto;
+		width: 100%;
+		float: none;
+	}
+	.centerlist{
+		width: 100px;
+		
+	}
+	.centerleft-top{
+		font-size: 24px;
+	}
+}
+
+
+
+
+
+
+
+/*中间右边部分*/
+main{
+	min-height: 520px;
+}
+.centerright{
+	color: #8C8C8C;
+	margin-left: 1vw;
+	float: right;
+	box-shadow: 2px 2px 2px #CCCCCC;
+	border: solid 1px #CCCCCC;
+	width: 73%;
+}
+.brief{
+	padding: 30px 65px;
+	display: flex;
+	line-height: 20px;
+	border-bottom: solid 1px #CCCCCC;
+}
+.brief-logo{
+    margin-right: 35px;
+	width: 17%;
+	background: url(../img-task8/战略合作企业1_03.jpg) left no-repeat;
+	background-size: 100%;
+}
+.bridf-bridf{
+	line-height: 25px;
+	font-size: 14px;
+	flex: 1;
+	width: 62%;
+}
+.detail{
+	font-size: 14px;
+	line-height: 25px;
+	text-indent: 2rem;
+	width: 80%;
+	margin: 40px 70px 0;
+}
+@media only screen and (min-width: 320px) and (max-width:768px){
+	.centerright{
+		float: none;
+		margin: 1rem auto;
+		width: 85%;
+	}
+
+  .brief{
+		display: block;
+	}
+	.brief-logo{
+		width: 200px;
+		margin: 10px auto;
+		height: 80px;
+		border-bottom: 1px solid #CCCCCC;
+	}
+	.bridf-bridf{
+	  margin:  0 auto;
+		width: 85%;
+	}
+	.detail{
+		margin: 40px auto 0;
+	}
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1400px) {
+	.brief{
+		display: block;
+	}
+	.brief-logo{
+		width: 200px;
+		margin: 10px auto;
+		height: 80px;
+		border-bottom: 1px solid #CCCCCC;
+	}
+	.bridf-bridf{
+	  margin:  0 auto;
+		width: 85%;
+	}
+	.detail{
+		margin: 40px auto 0;
+	}
+}
+
+
+
+
+
+

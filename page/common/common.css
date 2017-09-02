@@ -1,0 +1,272 @@
+/*common style*/
+.l{float:left;}
+.r{float:right;}
+
+
+/*header*/
+
+
+/* 客服热线*/
+
+.head-top {
+	color: #1FB176;
+}
+
+.headtop {
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	width: 65%;
+}
+
+.service {
+	font-size: 14px;
+	color: #1fb176;
+	text-align: left;
+}
+
+.share {
+	float: right;
+	text-align: right;
+}
+
+.share a {
+	margin-left: 1.25rem;
+	font-weight: bold;
+	color: #1FB176;
+}
+
+@media only screen and (max-width:425px) {
+	.headtop {
+		width: 90%;
+	}
+}
+
+
+/*页眉菜单*/
+
+header {
+	background-color: #1FB176;
+}
+
+.headerpart {
+	position: relative;
+	margin: 0 auto;
+	line-height: 100px;
+	height: 100px;
+	width: 65%;
+}
+
+.skill {
+	height: 50px;
+	width: 110px;
+	margin-top: 25px;
+	background: url(../img-task8/职位列表1234_03.jpg) left no-repeat;
+	background-size: 100%;
+	float: left;
+}
+
+.head-menu {
+	font-size: 16px;
+	margin-right: -35px;
+	position: absolute;
+	right: 0;
+	font-family: "微软雅黑";
+	color: white;
+	text-align: center;
+	float: right;
+}
+
+.head-menu div {
+	line-height: 100px;
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+
+.head-menu a {
+	color: white;
+	text-decoration: none;
+}
+
+.head-menu a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.head-menu div:hover {
+	border-bottom: solid 0.3rem white;
+}
+
+.icon-mulu {
+	border: 1px white solid;
+	padding: 5px;
+	margin-top: 31px;
+	display: none;
+	position: absolute;
+	right: -5px;
+	font-size: 24px;
+	color: white;
+	background-color: #1FB176;
+}
+
+
+/*媒体查询*/
+
+@media only screen and (max-width:768px) {
+	.headerpart {
+		line-height: 28px;
+		width: 65%;
+	}
+	.head-menu {
+		display: none;
+	}
+	.icon-mulu {
+		display: block;
+	}
+	.modal-dialog {
+		border-radius: 10px;
+	}
+	.modal-content {
+		color: white;
+		text-align: center;
+		margin-top: 141px;
+	}
+	.modal-content a {
+		margin-left: 10px;
+		color: white;
+		text-decoration: none;
+	}
+	.modal-content a:hover {
+		color: white;
+		text-decoration: none;
+	}
+	.modal-header {
+		background-color: #1FB176;
+	}
+	.icon-zhiye,
+	.icon-guanyuwomen,
+	.icon-tuijian,
+	.icon-shouye {
+		margin-left: 15px;
+		font-weight: bold;
+		font-size: 24px;
+	}
+}
+
+@media only screen and (max-width:425px) {
+	.headerpart {
+		width: 90%;
+	}
+}
+
+
+/*footer part*/
+
+
+/*尾部部分*/
+
+footer a:hover {
+	color: white;
+	border-bottom: solid 1px white;
+}
+
+footer a {
+	color: white;
+}
+
+footer {
+	color: white;
+	background-color: #1da36d;
+	height: 12rem;
+}
+
+.footerpart {
+	overflow: hidden;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	margin: auto;
+	text-align: left;
+	width: 60%;
+}
+
+.footer-part {
+	float: left;
+}
+
+.footer-partone {
+	margin-left: 10rem;
+	float: left;
+}
+
+.wechat {
+	float: right;
+}
+
+.wechatone {
+	margin: 0 auto;
+	height: 8rem;
+	width: 8rem;
+	background: url(../img-task8/技能树首页_33.jpg) left no-repeat;
+	background-size: 100%;
+}
+
+.fp-p {
+	margin-top: 5rem;
+}
+
+.fp-one {
+	margin-top: 2rem;
+}
+
+.fp-two {
+	margin-top: 2rem;
+}
+
+
+/*京号*/
+
+.copys {
+	padding: 0.5rem 0;
+	border-top: solid 1px #1FB176;
+	color: white;
+	text-align: center;
+	background-color: #1da36d;
+	font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+	footer {
+		height: 36rem;
+	}
+	.footerpart {
+		text-align: center;
+	}
+	.footer-part,
+	.footer-partone,
+	.wechat {
+		float: none;
+	}
+	.footer-partone {
+		margin-left: 0;
+		padding-top: 3rem;
+	}
+	.wechat {
+		padding-top: 3rem;
+	}
+	.wechatone {
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 522px) {
+	.copys {
+		height: 5rem
+	}
+}
+
+@media only screen and (min-width: 522px) {
+	.copys {
+		line-height: 4rem height:4rem
+	}
+}
