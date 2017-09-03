@@ -770,241 +770,241 @@ a.tdl:hover {
   height: 0;
   overflow: hidden;
 }
-/* 客服热线*/
-.head-top {
-  color: #1FB176;
-}
-.headtop {
-  height: 40px;
-  line-height: 40px;
-  margin-left: auto;
-  margin-right: auto;
+/*主体部分*/
+main {
+  margin: 0 auto 200px;
   width: 65%;
 }
-.service {
-  font-size: 14px;
-  color: #1FB176;
-  text-align: left;
-}
-.share {
-  float: right;
-  text-align: right;
-}
-.share a {
-  margin-left: 1.25rem;
-  font-weight: bold;
-  color: #1FB176;
-}
-@media only screen and (max-width: 425px) {
-  .headtop {
-    width: 90%;
-  }
-}
-@media only screen and (min-width: 425px) and (max-width: 1400px) {
-  .headtop {
-    width: 80%;
-  }
-}
-/*页眉菜单*/
-header {
-  background-color: #1FB176;
-}
-.headerpart {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 100px;
-  height: 100px;
-  width: 65%;
-}
-.skill {
-  height: 50px;
-  width: 110px;
-  margin-top: 25px;
-  background: url(../img-task8/职位列表1234_03.jpg) left no-repeat;
-  background-size: 100%;
-  float: left;
-}
-.head-menu {
+.page {
+  padding: 30px 0;
   font-size: 16px;
-  margin-right: -35px;
-  position: absolute;
-  right: 0;
-  font-family: "微软雅黑";
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+}
+.page a {
+  color: #1FB176;
+}
+.direction {
+  padding: 30px 0;
+  font: "微软雅黑" 14px;
+  color: #C0C0C0;
+  border-bottom: 1px solid #ccc;
+}
+.direction a {
+  line-height: 30px;
+  color: #3C3C3C;
+  margin-left: 2rem;
+}
+.direction a:hover {
+  background-color: #1FB176;
+  color: white;
+}
+.devolop {
+  padding: 30px 0;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+  font-size: 16px;
+}
+/*黑色介绍图*/
+.intraduce {
   color: white;
   text-align: center;
-  float: right;
-}
-.head-menu div {
-  line-height: 100px;
-  height: 100px;
-  width: 100px;
-  float: left;
-}
-.head-menu a {
-  color: white;
-  text-decoration: none;
-}
-.head-menu a:hover {
-  color: white;
-  text-decoration: none;
-}
-.head-menu div:hover {
-  border-bottom: solid 0.3rem white;
-}
-.icon-mulu {
-  border: 1px white solid;
-  padding: 5px;
-  margin-top: 31px;
   display: none;
   position: absolute;
-  right: -5px;
-  font-size: 24px;
-  color: white;
-  background-color: #1FB176;
+  top: 0;
+  left: 0;
+  padding: 0 2rem;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.7;
 }
-/*媒体查询*/
-@media only screen and (max-width: 768px) {
-  .headerpart {
-    line-height: 28px;
-    width: 65%;
-  }
-  .head-menu {
-    display: none;
-  }
-  .icon-mulu {
-    display: block;
-  }
-  .modal-dialog {
-    border-radius: 10px;
-  }
-  .modal-content {
-    color: white;
-    text-align: center;
-    margin-top: 141px;
-  }
-  .modal-content a {
-    margin-left: 10px;
-    color: white;
-    text-decoration: none;
-  }
-  .modal-content a:hover {
-    color: white;
-    text-decoration: none;
-  }
-  .modal-header {
-    background-color: #1FB176;
-  }
-  .icon-zhiye,
-  .icon-guanyuwomen,
-  .icon-tuijian,
-  .icon-shouye {
-    margin-left: 15px;
-    font-weight: bold;
-    font-size: 24px;
+.intraduce-one {
+  margin-top: 3rem;
+  font-size: 18px;
+}
+.intraduce-two {
+  font-size: 16px;
+  margin-top: 3rem;
+}
+.devolopone:hover .intraduce {
+  display: block;
+}
+.devolopone1:hover .intraduce {
+  display: block;
+}
+.devolopone2:hover .intraduce {
+  display: block;
+}
+/*职业详细*/
+.devolop-part {
+  overflow: hidden;
+  margin-top: 50px;
+}
+.devolopone {
+  margin-right: 16.7px;
+  position: relative;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 9px #C0C0C0;
+}
+.devolone_content {
+  float: left;
+  overflow: hidden;
+  width: 33.3%;
+}
+.devolopone1 {
+  margin: 0 8.5px;
+  position: relative;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 9px #C0C0C0;
+}
+.devolopone2 {
+  margin-left: 16.7px;
+  position: relative;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 9px #C0C0C0;
+}
+.devolopone-part {
+  border-bottom: 1px solid #ccc;
+}
+.devolone-part2 {
+  padding: 10px;
+}
+.oneleft {
+  margin-right: 15px;
+  float: left;
+  background: url(../img-task8/职位列表_05.jpg) left no-repeat;
+  background-size: 100%;
+}
+.oneright-p1 {
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.oneright-p2 {
+  font-size: 14px;
+  margin-top: 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 81px;
+}
+/*门店 */
+/*成长周期*/
+.devoloptwo,
+.devolopthree {
+  font-size: 12px;
+  overflow: hidden;
+  color: #C0C0C0;
+  border-bottom: 1px solid #ccc;
+}
+.devolop-parttwo,
+.devolopthree-two {
+  border-left: 1px solid #ccc;
+}
+.devolop-parttwo,
+.devolop-partone,
+.devolopthree-one,
+.devolopthree-two {
+  padding: 15px 5px;
+  width: 50%;
+  float: left;
+}
+.devoloptwo a,
+.devolopthree a,
+.devolopfive a {
+  color: red;
+  margin: 0 2px;
+}
+/*薪资待遇*/
+.devolopfour {
+  font-size: 12px;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  max-height: 150px;
+}
+.devolopfour-one {
+  position: absolute;
+  top: 12%;
+  box-sizing: border-box;
+  padding-top: 38px;
+  color: #ccc;
+  text-align: center;
+  width: 40%;
+  min-height: 90px;
+  float: left;
+}
+.devolopfour-two {
+  box-sizing: border-box;
+  border-left: 1px solid #ccc;
+  width: 60%;
+  float: right;
+}
+.devolopfour-two1 {
+  border-bottom: 1px solid #ccc;
+}
+.devolopfour-two2,
+.devolopfour-two1 {
+  padding: 10px 10px 10px 25px;
+  overflow: hidden;
+  width: 100%;
+}
+.dft-left {
+  margin: 0;
+  width: 40%;
+  float: left;
+}
+.dft-right {
+  margin: 0;
+  text-align: right;
+  width: 60%;
+  float: right;
+}
+.devolopfive {
+  padding: 10px 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+}
+.devolopsix {
+  font-size: 12px;
+  color: #ccc;
+  padding: 10px 10px;
+}
+.devolop-part1 {
+  overflow: hidden;
+  padding-top: 50px;
+}
+.mtop {
+  margin-top: 4rem;
+}
+@media only screen and (max-width: 1440px) {
+  .devolone_content {
+    width: 100%;
+    margin-bottom: 60px;
+    float: none;
   }
 }
+@media only screen and (max-width: 472px) {
+  main {
+    width: 90%;
+  }
+  .devolopthree-two {
+    padding: 15px 3px;
+  }
+  .devolopthree-two a {
+    margin: 0;
+  }
+}
+/*main*/
 @media only screen and (max-width: 425px) {
-  .headerpart {
+  main {
     width: 90%;
   }
 }
 @media only screen and (min-width: 425px) and (max-width: 1400px) {
-  .headerpart {
+  main {
     width: 80%;
-  }
-}
-/*footer part*/
-/*尾部部分*/
-footer a:hover {
-  color: white;
-  border-bottom: solid 1px white;
-}
-footer a {
-  color: white;
-}
-footer {
-  color: white;
-  background-color: #1FB176;
-  height: 12rem;
-}
-.footerpart {
-  overflow: hidden;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  width: 60%;
-}
-.footer-part {
-  float: left;
-}
-.footer-partone {
-  margin-left: 10rem;
-  float: left;
-}
-.wechat {
-  float: right;
-}
-.wechatone {
-  margin-left: auto;
-  margin-right: auto;
-  height: 8rem;
-  width: 8rem;
-  background: url(../img-task8/技能树首页_33.jpg) left no-repeat;
-  background-size: 100%;
-}
-.fp-p {
-  margin-top: 5rem;
-}
-.fp-one {
-  margin-top: 2rem;
-}
-.fp-two {
-  margin-top: 2rem;
-}
-/*京号*/
-.copys {
-  padding: 0.5rem 0;
-  border-top: solid 1px #1FB176;
-  color: white;
-  text-align: center;
-  background-color: #1FB176;
-  font-size: 1.5rem;
-}
-@media only screen and (max-width: 1024px) {
-  footer {
-    height: 36rem;
-  }
-  .footerpart {
-    text-align: center;
-  }
-  .footer-part,
-  .footer-partone,
-  .wechat {
-    float: none;
-  }
-  .footer-partone {
-    margin-left: 0;
-    padding-top: 3rem;
-  }
-  .wechat {
-    padding-top: 3rem;
-  }
-  .wechatone {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media only screen and (max-width: 522px) {
-  .copys {
-    height: 5rem;
-  }
-}
-@media only screen and (min-width: 522px) {
-  .copys {
-    line-height: 4rem ;
-    height: 4rem;
   }
 }

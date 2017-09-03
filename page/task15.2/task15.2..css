@@ -770,241 +770,164 @@ a.tdl:hover {
   height: 0;
   overflow: hidden;
 }
-/* 客服热线*/
-.head-top {
-  color: #1FB176;
-}
-.headtop {
-  height: 40px;
-  line-height: 40px;
-  margin-left: auto;
-  margin-right: auto;
+/*中间部分*/
+main {
+  margin: 0 auto 200px ;
   width: 65%;
 }
-.service {
-  font-size: 14px;
-  color: #1FB176;
-  text-align: left;
+.bn-head {
+  height: 12.5vw;
 }
-.share {
-  float: right;
-  text-align: right;
+.bn-head img {
+  height: 12.5vw;
+  width: 100%;
 }
-.share a {
-  margin-left: 1.25rem;
+.page {
+  margin: 35px 0 30px 0;
+  height: 20px;
   font-weight: bold;
+  line-height: 20px;
+  font-size: 16px;
+}
+.page a {
   color: #1FB176;
 }
-@media only screen and (max-width: 425px) {
-  .headtop {
-    width: 90%;
-  }
+/*中间左边部分*/
+.centerpart {
+  overflow: hidden;
 }
-@media only screen and (min-width: 425px) and (max-width: 1400px) {
-  .headtop {
-    width: 80%;
-  }
-}
-/*页眉菜单*/
-header {
-  background-color: #1FB176;
-}
-.headerpart {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 100px;
-  height: 100px;
-  width: 65%;
-}
-.skill {
-  height: 50px;
-  width: 110px;
-  margin-top: 25px;
-  background: url(../img-task8/职位列表1234_03.jpg) left no-repeat;
-  background-size: 100%;
+.centerleft {
   float: left;
+  padding-bottom: 3vw;
+  margin-bottom: 3vw;
+  box-shadow: 2px 2px 2px #CCCCCC;
+  border: solid 1px #CCCCCC;
+  width: 25%;
 }
-.head-menu {
-  font-size: 16px;
-  margin-right: -35px;
-  position: absolute;
-  right: 0;
-  font-family: "微软雅黑";
-  color: white;
+.centerleft-top {
+  border-bottom: solid 1px #CCCCCC;
+  font-weight: bold;
+  font-size: 18px;
   text-align: center;
-  float: right;
+  width: 100%;
+  line-height: 60px;
+  height: 60px;
 }
-.head-menu div {
-  line-height: 100px;
-  height: 100px;
+.centerlist {
+  font-size: 14px;
+  text-align: left;
+  color: #1FB176;
+  margin: 35px auto 0;
   width: 100px;
-  float: left;
 }
-.head-menu a {
-  color: white;
-  text-decoration: none;
+.icon_circle {
+  margin-right: 5px;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #Ff6400;
 }
-.head-menu a:hover {
-  color: white;
-  text-decoration: none;
+.centerlist:hover span {
+  border: 5px solid #ff6400;
 }
-.head-menu div:hover {
-  border-bottom: solid 0.3rem white;
+.centerlist:hover a {
+  color: #ff6400;
 }
-.icon-mulu {
-  border: 1px white solid;
-  padding: 5px;
-  margin-top: 31px;
-  display: none;
-  position: absolute;
-  right: -5px;
-  font-size: 24px;
-  color: white;
-  background-color: #1FB176;
+.centerlist a {
+  color: #1DA36D;
 }
-/*媒体查询*/
-@media only screen and (max-width: 768px) {
-  .headerpart {
-    line-height: 28px;
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  main {
     width: 65%;
   }
-  .head-menu {
-    display: none;
+  .centerleft {
+    margin: 0 auto;
+    width: 100%;
+    float: none;
   }
-  .icon-mulu {
-    display: block;
+  .centerlist {
+    width: 100px;
   }
-  .modal-dialog {
-    border-radius: 10px;
-  }
-  .modal-content {
-    color: white;
-    text-align: center;
-    margin-top: 141px;
-  }
-  .modal-content a {
-    margin-left: 10px;
-    color: white;
-    text-decoration: none;
-  }
-  .modal-content a:hover {
-    color: white;
-    text-decoration: none;
-  }
-  .modal-header {
-    background-color: #1FB176;
-  }
-  .icon-zhiye,
-  .icon-guanyuwomen,
-  .icon-tuijian,
-  .icon-shouye {
-    margin-left: 15px;
-    font-weight: bold;
+  .centerleft-top {
     font-size: 24px;
   }
 }
-@media only screen and (max-width: 425px) {
-  .headerpart {
-    width: 90%;
-  }
+/*中间右边部分*/
+main {
+  min-height: 520px;
 }
-@media only screen and (min-width: 425px) and (max-width: 1400px) {
-  .headerpart {
-    width: 80%;
-  }
-}
-/*footer part*/
-/*尾部部分*/
-footer a:hover {
-  color: white;
-  border-bottom: solid 1px white;
-}
-footer a {
-  color: white;
-}
-footer {
-  color: white;
-  background-color: #1FB176;
-  height: 12rem;
-}
-.footerpart {
-  overflow: hidden;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  width: 60%;
-}
-.footer-part {
-  float: left;
-}
-.footer-partone {
-  margin-left: 10rem;
-  float: left;
-}
-.wechat {
+.centerright {
+  color: #8C8C8C;
+  margin-left: 1vw;
   float: right;
+  box-shadow: 2px 2px 2px #CCCCCC;
+  border: solid 1px #CCCCCC;
+  width: 73%;
 }
-.wechatone {
-  margin-left: auto;
-  margin-right: auto;
-  height: 8rem;
-  width: 8rem;
-  background: url(../img-task8/技能树首页_33.jpg) left no-repeat;
+.brief {
+  padding: 30px 65px;
+  display: flex;
+  line-height: 20px;
+  border-bottom: solid 1px #CCCCCC;
+}
+.brief-logo {
+  margin-right: 35px;
+  width: 17%;
+  background: url(../img-task8/战略合作企业1_03.jpg) left no-repeat;
   background-size: 100%;
 }
-.fp-p {
-  margin-top: 5rem;
+.bridf-bridf {
+  line-height: 25px;
+  font-size: 14px;
+  flex: 1;
+  width: 62%;
 }
-.fp-one {
-  margin-top: 2rem;
+.detail {
+  font-size: 14px;
+  line-height: 25px;
+  text-indent: 2rem;
+  width: 80%;
+  margin: 40px 70px 0;
 }
-.fp-two {
-  margin-top: 2rem;
-}
-/*京号*/
-.copys {
-  padding: 0.5rem 0;
-  border-top: solid 1px #1FB176;
-  color: white;
-  text-align: center;
-  background-color: #1FB176;
-  font-size: 1.5rem;
-}
-@media only screen and (max-width: 1024px) {
-  footer {
-    height: 36rem;
-  }
-  .footerpart {
-    text-align: center;
-  }
-  .footer-part,
-  .footer-partone,
-  .wechat {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .centerright {
     float: none;
+    margin: 1rem auto;
+    width: 85%;
   }
-  .footer-partone {
-    margin-left: 0;
-    padding-top: 3rem;
+  .brief {
+    display: block;
   }
-  .wechat {
-    padding-top: 3rem;
+  .brief-logo {
+    width: 200px;
+    margin: 10px auto;
+    height: 80px;
+    border-bottom: 1px solid #CCCCCC;
   }
-  .wechatone {
-    margin-left: auto;
-    margin-right: auto;
+  .bridf-bridf {
+    margin: 0 auto;
+    width: 85%;
+  }
+  .detail {
+    margin: 40px auto 0;
   }
 }
-@media only screen and (max-width: 522px) {
-  .copys {
-    height: 5rem;
+@media only screen and (min-width: 768px) and (max-width: 1400px) {
+  .brief {
+    display: block;
   }
-}
-@media only screen and (min-width: 522px) {
-  .copys {
-    line-height: 4rem ;
-    height: 4rem;
+  .brief-logo {
+    width: 200px;
+    margin: 10px auto;
+    height: 80px;
+    border-bottom: 1px solid #CCCCCC;
+  }
+  .bridf-bridf {
+    margin: 0 auto;
+    width: 85%;
+  }
+  .detail {
+    margin: 40px auto 0;
   }
 }

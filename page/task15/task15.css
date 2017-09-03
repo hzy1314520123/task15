@@ -770,241 +770,518 @@ a.tdl:hover {
   height: 0;
   overflow: hidden;
 }
-/* 客服热线*/
-.head-top {
-  color: #1FB176;
+/*高度*/
+/* pdding */
+/* margin*/
+/*bootstrap轮播图*/
+.carousel-inner {
+  height: 31vw;
 }
-.headtop {
-  height: 40px;
-  line-height: 40px;
-  margin-left: auto;
-  margin-right: auto;
+.item img {
+  height: 31vw;
+  width: 100%;
+}
+.carousel-indicators {
+  margin-bottom: -5px;
+}
+/*轮播图
+.banar{
+    position: relative;
+    height: 35rem;
+}
+.banar-list{
+    position: absolute;
+    z-index: 1;
+    width: 300%;
+    height: 35rem;
+    animation: bannar;
+}
+
+.banarone{
+    float: left;
+    width: 33.33%;
+    height: 35rem;
+    background:url(../img-task8/技能树首页_02.jpg)left no-repeat;
+    background-size:100%;
+}
+.banartwo{
+    float: left;
+    width: 33.33%;
+    height: 35rem;
+    background:url(../img-task8/timg.jpg) left no-repeat;
+    background-size:100%;
+}
+.banarthree{
+    float: left;
+    width: 33.33%;
+    height: 35rem;
+    background:url(../img-task8/技能树首页_02.jpg)  left no-repeat;
+    background-size:100%;
+}
+
+.buttom{
+    position: absolute;
+    left: 50%;
+    top: 92%;
+    z-index: 2;
+    width: 6rem;
+    height: 2rem;
+    margin: 0 auto;
+}
+
+.buttom div{
+    border: solid 1px white;
+    margin: 0.2rem 0.3rem 0  0.4rem;
+    float: left;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 50%;
+}
+.buttom div:hover{
+    background-color: #8C8C8C;
+}
+.leftbt{
+    z-index: 3;
+    position: absolute;
+    left: 13%;
+    top: 50%;
+}
+.rightbt{
+    z-index: 3;
+    position: absolute;
+    right: 13%;
+    top: 49%;
+}
+.icon-xiangyou1,.icon-xiangyou{
+    color: #C0C0C0;
+    font-size: 5rem;
+}
+*/
+/*主体部分*/
+main {
+  margin: 30px auto 170px;
   width: 65%;
 }
-.service {
-  font-size: 14px;
-  color: #1FB176;
-  text-align: left;
-}
-.share {
-  float: right;
-  text-align: right;
-}
-.share a {
-  margin-left: 1.25rem;
-  font-weight: bold;
-  color: #1FB176;
-}
+/*main*/
 @media only screen and (max-width: 425px) {
-  .headtop {
+  main {
     width: 90%;
   }
 }
 @media only screen and (min-width: 425px) and (max-width: 1400px) {
-  .headtop {
+  main {
     width: 80%;
   }
 }
-/*页眉菜单*/
-header {
-  background-color: #1FB176;
-}
-.headerpart {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 100px;
-  height: 100px;
-  width: 65%;
-}
-.skill {
-  height: 50px;
-  width: 110px;
-  margin-top: 25px;
-  background: url(../img-task8/职位列表1234_03.jpg) left no-repeat;
-  background-size: 100%;
-  float: left;
-}
-.head-menu {
-  font-size: 16px;
-  margin-right: -35px;
-  position: absolute;
-  right: 0;
-  font-family: "微软雅黑";
-  color: white;
-  text-align: center;
-  float: right;
-}
-.head-menu div {
-  line-height: 100px;
-  height: 100px;
-  width: 100px;
-  float: left;
-}
-.head-menu a {
-  color: white;
-  text-decoration: none;
-}
-.head-menu a:hover {
-  color: white;
-  text-decoration: none;
-}
-.head-menu div:hover {
-  border-bottom: solid 0.3rem white;
-}
-.icon-mulu {
-  border: 1px white solid;
-  padding: 5px;
-  margin-top: 31px;
-  display: none;
-  position: absolute;
-  right: -5px;
-  font-size: 24px;
-  color: white;
-  background-color: #1FB176;
-}
-/*媒体查询*/
-@media only screen and (max-width: 768px) {
-  .headerpart {
-    line-height: 28px;
-    width: 65%;
-  }
-  .head-menu {
-    display: none;
-  }
-  .icon-mulu {
-    display: block;
-  }
-  .modal-dialog {
-    border-radius: 10px;
-  }
-  .modal-content {
-    color: white;
-    text-align: center;
-    margin-top: 141px;
-  }
-  .modal-content a {
-    margin-left: 10px;
-    color: white;
-    text-decoration: none;
-  }
-  .modal-content a:hover {
-    color: white;
-    text-decoration: none;
-  }
-  .modal-header {
-    background-color: #1FB176;
-  }
-  .icon-zhiye,
-  .icon-guanyuwomen,
-  .icon-tuijian,
-  .icon-shouye {
-    margin-left: 15px;
-    font-weight: bold;
-    font-size: 24px;
-  }
-}
-@media only screen and (max-width: 425px) {
-  .headerpart {
-    width: 90%;
-  }
-}
-@media only screen and (min-width: 425px) and (max-width: 1400px) {
-  .headerpart {
-    width: 80%;
-  }
-}
-/*footer part*/
-/*尾部部分*/
-footer a:hover {
-  color: white;
-  border-bottom: solid 1px white;
-}
-footer a {
-  color: white;
-}
-footer {
-  color: white;
-  background-color: #1FB176;
-  height: 12rem;
-}
-.footerpart {
+/*主体第一部分*/
+/* 第一部分 左边*/
+.connection {
   overflow: hidden;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 10px;
+  margin-bottom: 120px;
+}
+.conne-one {
+  text-align: center;
+  width: 75%;
+  float: left;
+}
+.conne-one div {
+  padding: 0 20px;
+  width: 33.3%;
+  float: left;
+}
+.conne-p2 {
+  display: inline-block;
+  margin: 18px 28px 28px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.conne-p3 {
+  font-size: 16px;
   text-align: left;
-  width: 60%;
+  color: #C0C0C0;
 }
-.footer-part {
-  float: left;
+.conne-one a {
+  display: block;
+  font-size: 60px;
+  color: #1FB176;
 }
-.footer-partone {
-  margin-left: 10rem;
-  float: left;
-}
-.wechat {
+/*主体第一部分右边*/
+.conne-two {
+  border-left: dashed 2px #DCDCDC;
+  padding-left: 56px;
+  padding-top: 20px;
+  width: 25%;
   float: right;
 }
-.wechatone {
-  margin-left: auto;
-  margin-right: auto;
-  height: 8rem;
-  width: 8rem;
-  background: url(../img-task8/技能树首页_33.jpg) left no-repeat;
-  background-size: 100%;
+.studynb {
+  margin: 30px 0 40px;
 }
-.fp-p {
-  margin-top: 5rem;
+.conne-two a {
+  color: #1FB176;
 }
-.fp-one {
-  margin-top: 2rem;
+.conne-p4 {
+  margin-top: 15px;
+  color: #C0C0C0;
+  font-size: 16px;
 }
-.fp-two {
-  margin-top: 2rem;
-}
-/*京号*/
-.copys {
-  padding: 0.5rem 0;
-  border-top: solid 1px #1FB176;
-  color: white;
-  text-align: center;
-  background-color: #1FB176;
-  font-size: 1.5rem;
-}
-@media only screen and (max-width: 1024px) {
-  footer {
-    height: 36rem;
+@media only screen and (max-width: 768px) {
+  .conne-one p {
+    padding: 0;
   }
-  .footerpart {
-    text-align: center;
-  }
-  .footer-part,
-  .footer-partone,
-  .wechat {
+  .conne-one {
+    border-right: none;
+    width: 100%;
     float: none;
   }
-  .footer-partone {
-    margin-left: 0;
-    padding-top: 3rem;
+  .conne-two {
+    padding-left: 0;
+    float: none;
   }
-  .wechat {
-    padding-top: 3rem;
+  .conne-p3 {
+    text-align: center;
   }
-  .wechatone {
+  .conne-one div {
+    margin-top: 20px;
+    float: none;
     margin-left: auto;
     margin-right: auto;
+    width: 65%;
+  }
+  .conne-two {
+    border-left: none;
+    border-top: dashed 2px #DCDCDC;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
   }
 }
-@media only screen and (max-width: 522px) {
-  .copys {
-    height: 5rem;
+@media only screen and (min-width: 768px) and (max-width: 1400px) {
+  .conne-one a {
+    padding: 0;
   }
 }
-@media only screen and (min-width: 522px) {
-  .copys {
-    line-height: 4rem ;
-    height: 4rem;
+/*主体第二部分*/
+.how-learn {
+  margin-bottom: 150px;
+  text-align: center;
+}
+.first-row {
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.hl-p {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+/*主体第二部分第一排*/
+.first-list {
+  display: flex;
+  align-items: center;
+  float: left;
+  width: 25%;
+}
+.serail {
+  display: inline-block;
+  color: #1FB176;
+  line-height: 70px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  width: 70px;
+  height: 70px;
+}
+.pardic {
+  font-size: 14px;
+  padding: 0 13px;
+  display: inline-block;
+  text-align: left;
+  width: 64%;
+}
+.icon-jiantou {
+  display: inline-block;
+  color: #1FB176;
+}
+@media only screen and (max-width: 767px) {
+  .first-row {
+    margin-bottom: 0;
+  }
+  .first-list {
+    color: #a1a1a1;
+    justify-content: left;
+    float: none;
+    width: 80%;
+    margin: 25px auto 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .first-row {
+    margin: 0 auto;
+  }
+  .first-list {
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+    width: 47%;
+  }
+  .pardic {
+    padding: 0;
+    width: 14rem;
+    margin-left: 3vw;
+  }
+  .pardic {
+    padding-top: 7px;
+    margin-left: 10px;
+    width: 70%;
+  }
+  .icon-jiantou {
+    margin-right: 0;
+    padding-top: 0;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .pardic {
+    padding-top: 7px;
+    margin-left: 10px;
+    width: 70%;
+  }
+  .icon-jiantou {
+    margin-right: 0;
+    padding-top: 0;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 2000px) {
+  .how-learn {
+    margin: 0 auto 120px;
+  }
+}
+/*主体第三部分*/
+.students {
+  margin-bottom: 150px;
+  overflow: hidden;
+  text-align: center;
+}
+.students-head {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 70px;
+}
+.students-show {
+  overflow: hidden;
+}
+.showpart {
+  float: left;
+  padding: 0 15px;
+  width: 25%;
+}
+.show-part {
+  margin-bottom: 20px;
+  padding: 20px 30px 40px;
+  background-color: white;
+  box-shadow: 2px 2px 9px #C0C0C0;
+  border: 1px solid #ccc;
+  float: left;
+}
+.bgimg,
+.bgimg-one,
+.bgimg-two,
+.bgimg-three {
+  margin: 0 auto;
+  height: 110px;
+  width: 110px;
+  background: url(../img-task8/技能树首页_10.jpg) left no-repeat;
+  background-size: 100%;
+}
+.show-p1 {
+  margin: 30px 0 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.show-p2 {
+  font-size: 16px;
+  color: #ccc;
+  line-height: 1.5;
+  text-align: left;
+  letter-spacing: 1px;
+}
+.bgimg-one {
+  background: url(../img-task8/技能树首页_03.jpg) left no-repeat;
+  background-size: 100%;
+}
+.bgimg-two {
+  background: url(../img-task8/技能树首页_05.jpg) left no-repeat;
+  background-size: 100%;
+}
+.bgimg-three {
+  background: url(../img-task8/技能树首页_07.jpg) left no-repeat;
+  background-size: 100%;
+}
+/*尾部四个小点*/
+.btpart {
+  width: 6rem;
+  height: 20px;
+  margin: 20px auto 0;
+}
+.btpart div {
+  margin: 0.2rem 0.3rem 0 0.4rem;
+  float: left;
+  height: 0.8rem;
+  width: 0.8rem;
+  border-radius: 50%;
+  background-color: #DCDCDC;
+}
+.btpart div:hover {
+  background-color: #1FB176;
+}
+@media only screen and (max-width: 768px) {
+  .showpart {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1153px) {
+  .showpart {
+    float: left;
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 2000px) {
+  .students {
+    margin: 0 auto 120px;
+    width: 100%;
+  }
+}
+/*主体第四部分*/
+.stratagy {
+  margin-bottom: 150px;
+  text-align: center;
+}
+.stratagy-p {
+  font-weight: bold;
+  font-size: 18px;
+}
+.stratagy-img {
+  overflow: hidden;
+  margin-top: 60px;
+  background-color: white;
+}
+.stratagy-img:hover {
+  box-shadow: 0px 0px 1px #C0C0C0;
+}
+.stratagy-img div {
+  float: left;
+  height: 178px;
+  width: 20%;
+}
+.stratagy-img div:hover {
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 9px #C0C0C0;
+}
+.stratagy-one {
+  background: url(../img-task8/技能树首页_17.jpg) center no-repeat;
+}
+.stratagy-two {
+  background: url(../img-task8/技能树首页_19.jpg) center no-repeat;
+}
+.stratagy-three {
+  background: url(../img-task8/技能树首页_21.jpg) center no-repeat;
+}
+.stratagy-four {
+  background: url(../img-task8/技能树首页_23.jpg) center no-repeat;
+}
+#stratagy-five {
+  background: url(../img-task8/技能树首页_25.jpg) center no-repeat;
+}
+@media only screen and (max-width: 450px) {
+  .stratagy {
+    margin-top: 12rem;
+  }
+  .stratagy-p {
+    font-size: 18px;
+  }
+  .stratagy-img {
+    border: none;
+    height: 101rem;
+    background: none;
+  }
+  .stratagy-img div {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px #CCC;
+    background-color: white;
+    width: 80%;
+    margin: 18px auto;
+    float: none;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 1153px) {
+  .stratagy {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .stratagy-img:hover {
+    box-shadow: none;
+  }
+  .stratagy-img div {
+    width: 50%;
+  }
+  #stratagy-five {
+    width: 100%;
+  }
+}
+/*友情链接*/
+.blogroll {
+  text-align: center;
+  margin-top: 120px;
+}
+.blogroll-p {
+  font-weight: bold;
+  font-size: 18px;
+}
+.blogroll ul {
+  overflow: hidden;
+  padding: 8px 0;
+  margin: 5px auto;
+  width: 65%;
+}
+.blogroll li {
+  color: #8C8C8C;
+  font: "微软雅黑";
+  font-size: 14px;
+  margin-right: 5.3%;
+  float: left;
+}
+.blogroll li:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 1024px) {
+  .blogroll {
+    overflow: hidden;
+  }
+  .blogroll ul {
+    padding-left: 16%;
+    float: left;
+    width: 45%;
+  }
+  .blogroll li {
+    margin-left: 2rem;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .blogroll li {
+    color: #8C8C8C;
+    font: "微软雅黑";
+    font-size: 14px;
+    width: 13%;
+    padding: 8px auto;
+    float: left;
+  }
+  .blogroll ul {
+    padding-left: 8%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .blogroll li {
+    margin-right: 0;
+    width: 10%;
   }
 }
